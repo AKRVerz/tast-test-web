@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VerzXz</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="styles/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/12399008_0.png" />
+    <script
+      src="https://kit.fontawesome.com/cdd821197f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <input onclick="changeTheme()" type="checkbox" />
+      </div>
+
+      <div id="header-change" class="header-content">
+        <img
+          src="https://avatars.githubusercontent.com/u/93865260?s=400&u=8b319793833874ddc5e32a8df17041654c195e6c&v=4"
+          alt="Profile Image"
+        />
+        <div class="header-about">
+          <h1>Hay saya Apri Kurniawansyah</h1>
+          <p>Seorang Mahasiswa Teknik Informatika</p>
+        </div>
+      </div>
+      <ul class="navbar">
+        <li><a href="#tentang%20Saya">Tentang Saya</a></li>
+        <li><a href="#pengalaman%20Kerja">Pengalaman Kerja</a></li>
+        <li><a href="#hubungi%20Saya">Hubungi Saya</a></li>
+      </ul>
+
+      <div class="content">
+        <h2 id="tentang%20Saya">Tentang Saya</h2>
+
+        <div class="content-about">
+          <p id="text" class="about-me">
+            Apri Kurniawansyah dengan NIM 119140141 sekarang sedang kuliah S1 di
+            Institute Teknologi Sumatera, pernah bersekolah di SMA perintis 1
+            Bandar lampung. Lahir di Natar pada tanggal 10 april 2001, dan
+            sekarang berumur 21 tahun.
+          </p>
+          <div class="about-video">
+            <video width="500" controls>
+              <source src="Space_of_Thieves.mp4" type="video/mp4" />
+            </video>
+            <p>Video Sea Of Thieves</p>
+          </div>
+        </div>
+
+        <h2 id="pengalaman%20Kerja">Pengalaman Kerja</h2>
+        <div id="table" class="work-tables">
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Posisi</th>
+                <th rowspan="2">Perusahaan</th>
+                <th colspan="2">Waktu</th>
+              </tr>
+              <tr>
+                <th>muali</th>
+                <th>akhir</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Modder Junior</td>
+                <td>Takidut</td>
+                <td>2021</td>
+                <td>2022</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>FrontEnd Junior</td>
+                <td>Icositer</td>
+                <td>2021</td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>FrontEnd Junior</td>
+                <td>PTI</td>
+                <td>2022</td>
+                <td>2022</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="hubungi%20Saya">Hubungi Saya</h2>
+        <div class="form-control">
+          <form action="get">
+            <label for="name">Nama :</label>
+            <input type="text" name="name" id="name" />
+            <p>Sudah Menonton Video Saya?</p>
+            <input type="radio" id="yes" name="yes" />
+            <label for="yes">Ya</label><br />
+            <input type="radio" id="no" name="no" />
+            <label for="no">Tidak</label><br />
+            <button class="button">
+              <span class="text">Submit</span>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>Ini Akhir</p>
+      </div>
+    </div>
+  </body>
+</html>
